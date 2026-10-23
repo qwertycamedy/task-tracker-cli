@@ -1,0 +1,8 @@
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/Main.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/model/EPriority.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/model/EStatus.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/model/Task.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/repository/TaskRepository.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/service/ITaskService.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/service/TaskService.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/main/java/com/example/utils/DateUtils.java

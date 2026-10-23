@@ -1,0 +1,8 @@
+com/example/model/Task.class
+com/example/service/TaskService.class
+com/example/repository/TaskRepository.class
+com/example/model/EStatus.class
+com/example/service/ITaskService.class
+com/example/Main.class
+com/example/model/EPriority.class
+com/example/utils/DateUtils.class
