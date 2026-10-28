@@ -22,8 +22,12 @@ public class TaskRepository implements ITaskRepository<Task> {
     private final ObjectMapper mapper;
 
     public TaskRepository() {
+        this(new File(FILE_PATH));
+    }
+
+    public TaskRepository(File file) {
         this.data = new ArrayList<>();
-        this.file = new File(FILE_PATH);
+        this.file = file;
         this.mapper = new ObjectMapper();
         this.mapper.registerModule(new JavaTimeModule());
 
@@ -51,7 +55,6 @@ public class TaskRepository implements ITaskRepository<Task> {
             t.setDeadline(task.getDeadline());
         });
         saveTasks();
-
     }
 
     @Override
@@ -96,10 +99,13 @@ public class TaskRepository implements ITaskRepository<Task> {
     }
 
     private void loadTasks() {
+        if (this.file.length() == 0) {
+            return;
+        }
+
         try {
             this.data = mapper.readValue(this.file, new TypeReference<ArrayList<Task>>() {
             });
-
         } catch (Exception e) {
             System.out.println("Something went wrong: " + e);
         }

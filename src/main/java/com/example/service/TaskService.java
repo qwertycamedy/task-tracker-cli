@@ -15,6 +15,10 @@ public class TaskService implements ITaskService<Task> {
         this.repository = new TaskRepository();
     }
 
+    public TaskService(TaskRepository repository) {
+        this.repository = repository;
+    }
+
     @Override
     public void add(Task task) {
         this.repository.add(task);

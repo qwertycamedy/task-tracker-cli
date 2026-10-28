@@ -1,2 +1,6 @@
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/test/java/com/example/model/EPriorityTest.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/test/java/com/example/model/EStatusTest.java
 /Users/qwertycamedy/Documents/dev/task-tracker-cli/src/test/java/com/example/model/TaskTest.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/test/java/com/example/repository/TaskRepositoryTest.java
 /Users/qwertycamedy/Documents/dev/task-tracker-cli/src/test/java/com/example/service/TaskServiceTest.java
+/Users/qwertycamedy/Documents/dev/task-tracker-cli/src/test/java/com/example/utils/DateUtilsTest.java
